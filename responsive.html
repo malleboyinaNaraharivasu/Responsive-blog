@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tech Deals Blog</title>
+  <link rel="stylesheet" href="style.css"/>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f2f2f2;
+    }
+
+    header {
+      background-color: #232f3e;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    .product-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 1rem;
+      gap: 1rem;
+    }
+
+    .product-card {
+      background: white;
+      width: 250px;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      padding: 1rem;
+      transition: transform 0.2s;
+    }
+
+    .product-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .product-card img {
+      width: 100%;
+      height: auto;
+      border-radius: 4px;
+    }
+
+    .rating {
+      color: #ffa41c;
+      margin: 0.5rem 0;
+    }
+
+    .price {
+      font-weight: bold;
+      color: #b12704;
+    }
+
+    .mrp {
+      text-decoration: line-through;
+      color: #555;
+      margin-left: 0.5rem;
+    }
+
+    .off {
+      color: green;
+      font-weight: normal;
+      margin-left: 0.5rem;
+    }
+
+    button {
+      margin-top: 0.5rem;
+      background-color: #ffd814;
+      border: none;
+      padding: 0.5rem;
+      cursor: pointer;
+      width: 100%;
+      border-radius: 4px;
+    }
+
+    button:hover {
+      background-color: #f7ca00;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🔥 Tech Deals Blog</h1>
+  </header>
+
+  <section class="product-container">
+    <div class="product-card">
+      <img src="https://via.placeholder.com/250x250?text=Product+1" alt="Product 1"/>
+      <h3>LG 7 kg Semi-Automatic Washing Machine</h3>
+      <div class="rating">⭐⭐⭐⭐☆ (276)</div>
+      <p class="price">₹12,739 <span class="mrp">₹13,190</span> <span class="off">(3% OFF)</span></p>
+      <button>View Deal</button>
+    </div>
+
+    <div class="product-card">
+      <img src="https://via.placeholder.com/250x250?text=Product+2" alt="Product 2"/>
+      <h3>LG 7 kg Semi-Automatic Washing Machine</h3>
+      <div class="rating">⭐⭐⭐⭐☆ (2,267)</div>
+      <p class="price">₹11,490 <span class="mrp">₹16,090</span> <span class="off">(29% OFF)</span></p>
+      <button>View Deal</button>
+    </div>
+
+    <div class="product-card">
+      <img src="https://via.placeholder.com/250x250?text=Product+3" alt="Product 3"/>
+      <h3>Whirlpool 7.5 kg Inverter Fully-Automatic</h3>
+      <div class="rating">⭐⭐⭐⭐☆ (650)</div>
+      <p class="price">₹24,300 <span class="mrp">₹31,950</span> <span class="off">(23% OFF)</span></p>
+      <button>View Deal</button>
+    </div>
+
+    <div class="product-card">
+      <img src="https://via.placeholder.com/250x250?text=Product+4" alt="Product 4"/>
+      <h3>Whirlpool 7.5 kg Fully-Automatic</h3>
+      <div class="rating">⭐⭐⭐⭐☆ (1,396)</div>
+      <p class="price">₹22,290 <span class="mrp">₹28,650</span> <span class="off">(22% OFF)</span></p>
+      <button>View Deal</button>
+    </div>
+
+    <div class="product-card">
+      <img src="https://via.placeholder.com/250x250?text=Product+5" alt="Product 5"/>
+      <h3>Whirlpool 7.5 kg Fully-Automatic</h3>
+      <div class="rating">⭐⭐⭐⭐☆ (128)</div>
+      <p class="price">₹21,990 <span class="mrp">₹26,950</span> <span class="off">(18% OFF)</span></p>
+      <button>View Deal</button>
+    </div>
+
+    <div class="product-card">
+      <img src="https://via.placeholder.com/250x250?text=Product+6" alt="Product 6"/>
+      <h3>Whirlpool 7.5 kg Fully-Automatic</h3>
+      <div class="rating">⭐⭐⭐⭐☆ (824)</div>
+      <p class="price">₹20,310 <span class="mrp">₹22,300</span> <span class="off">(8% OFF)</span></p>
+      <button>View Deal</button>
+    </div>
+  </section>
+</body>
+</html>
